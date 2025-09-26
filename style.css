@@ -7,4 +7,12 @@ body {
     background-color: black;
     color: white;
    font-family: pigeon;
+   margin-left: 600px;
+   margin-top: 300px;
   }
+
+   img {
+        display: block;
+        margin-left: 80px;
+        margin-top: -180px;
+    }
