@@ -7,31 +7,175 @@ body {
     background-color: black;
     color: white;
    font-family: pigeon;
-   margin-left: 600px;
-   margin-top: 300px;
+   margin-left: 120px;
+   margin-top: 150px;
    overflow-x: hidden;
+   scroll-behavior: smooth;
+  }
+/* 
+  .navigation{
+    display:flex;
+    position: fixed;
+    top: 0;
+    left: 30px;
+    justify-content: center;
+    gap: 20rem;
+    background-color: white;
+    height: 100vh;
+    width: 50px;
   }
 
-   img {
-        display: block;
-        margin-left: 80px;
-        margin-top: -180px;
-    }
+  .navigation-bar-items{
+    height: 33%;
+  }
 
- @media only screen and (max-width: 600px)
+   .navigation a{
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    display: block;
+    transform: rotate(-90deg);
+    width: 100%;
+    text-decoration: none;
+  } */
 
+/* header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: 30px;
 
- {
+} */
 
-    h1 {
+header svg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: auto;
+  margin-left: 3vh;
+}
 
-        margin-left: -100vw ;
-    }
+.menu2{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
 
-    img{
-        margin-left: -85vw;
-    }
+}
 
+div.navigation-item {
+    width: 50vw;
+}
+  
 
+  .intro{
+    display: block;
+    position: relative;
+    height: auto;
+    box-sizing:border-box;
+    margin-bottom: 150px;
+  }
 
- }
+  .intro-text{
+    position: relative;
+    line-height: 1.5;
+    width: 40%;
+    font-size: 14pt;
+  }
+
+/* PROJECTS */
+div.all-wrapper {
+    margin-bottom: 20vh;
+}
+
+div.project {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+div.project .image-wrapper {
+    width: 47%;
+    /* max-height: 400px; */
+    object-fit: cover;
+}
+
+div.description {
+    width: 55%;
+    padding: 0 40px; 
+}
+
+div.divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+div#bottom {
+    display: block;
+    
+}
+
+h5 {
+    line-height: 0.3;
+    font-size: 12pt;
+    text-align: center;
+}
+
+h6 {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+p.text {
+    font-size: 12pt;
+    text-align: center;
+    text-align: left;
+
+}
+
+.image-wrapper img{
+  width: 100%;
+  height: auto;
+}
+
+.project img{
+  aspect-ratio: 1.414/1;
+  object-fit: cover;
+}
+
+.project img:hover{
+    /* position: absolute; */
+    transition: transform .5s ease;
+    transform: scale(1.08);
+}
+   
+@media only screen and (max-width: 900px){
+  .menu2{
+    display: block;
+  }
+  .menu1{
+    display: none;
+  }
+  .intro-text{
+    width: 100%;
+  }
+  body{
+    margin-left: 0;
+  }
+  div.project{
+    flex-direction: column;
+  }
+}
