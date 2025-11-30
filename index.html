@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Karoly Eggly</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
 <!-- <div class="navigation">
@@ -86,7 +87,7 @@
 
 <div class="all-wrapper">
   <div class="project">
-    <div class="image-wrapper">
+    <div class="image-wrapper" data-images="border.JPG, type.JPG, mary.JPG">
       <img src="border.JPG" alt="">
     </div>
     <div class="description">
@@ -110,7 +111,7 @@
   </div>
 
   <div class="project">
-    <div class="image-wrapper">
+    <div class="image-wrapper" data-images="border.JPG, type.JPG, mary.JPG">
     <img src="revisit.JPG" alt="">
         </div>
     <div class="description">
@@ -189,8 +190,15 @@
 
 
 
+<div id="lightbox" class="lightbox hidden">
+  <span class="close">&times;</span>
+  <div class="lightbox-content">
+    <span class="prev">&#10094;</span>
+    <img id="lightbox-img" src="" alt="">
+    <span class="next">&#10095;</span>
+  </div>
+</div>
 
-
-
+<script src="script.js"></script>
 </body>
 </html>
