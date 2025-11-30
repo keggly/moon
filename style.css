@@ -89,7 +89,7 @@ div.navigation-item {
     position: relative;
     line-height: 1.5;
     width: 40%;
-    font-size: 14pt;
+    font-size: 16pt;
   }
 
 /* PROJECTS */
@@ -140,7 +140,7 @@ h6 {
 }
 
 p.text {
-    font-size: 12pt;
+    font-size: 13pt;
     text-align: center;
     text-align: left;
 
