@@ -1,6 +1,6 @@
 .lightbox {
   position: fixed;
-  top: 25px; left: 160px;
+  top: 20px; left: 160px;
   width: 90%; height: 90%;
   background: none;
   display: flex;
