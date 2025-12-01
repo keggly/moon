@@ -164,6 +164,7 @@ p.text {
 @media only screen and (max-width: 900px){
   .menu2{
     display: block;
+    width: 100vw;
   }
   .menu1{
     display: none;
@@ -172,34 +173,38 @@ p.text {
     width: 100%;
   }
   body{
-    margin-left: 0;
+    margin-left: 0px;
   }
   div.project{
     flex-direction: column;
     width: 95%;
     height: 900px;
+    margin-left: 0px;
   }
 
  div.project .image-wrapper {
     width: 100vw;
     /* max-height: 400px; */
     object-fit: cover;
-    margin-left: 40px ;
+    margin-left: 0px ;
     margin-bottom: 40px;
  }
  div.description {
     width: 95%;
     padding: 0 40px; 
+    margin-left: 0px;
     
 }
 div.all-wrapper {
     margin-bottom: 20px;
+    margin-left: 0px;
 }
 
 div.divider {
     width: 100vw;
     height: 2px;
     background-color: white;
+    margin-left: 0px;
 }
 
 
