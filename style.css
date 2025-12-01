@@ -177,5 +177,33 @@ p.text {
   }
   div.project{
     flex-direction: column;
+    width: 90%;
   }
+
+ div.project .image-wrapper {
+    width: 90%;
+    /* max-height: 400px; */
+    object-fit: cover;
+    margin-left: 40px ;
+ }
+
+ div.description {
+    width: 90%;
+    padding: 0 40px; 
+    
+}
+
+div.all-wrapper {
+    margin-bottom: 50vh;
+}
+
+div.divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+
+
+
 }
