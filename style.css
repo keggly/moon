@@ -66,7 +66,6 @@ header svg{
   display: none;
   position: fixed;
   top: 20px;
-  left: 0;
   width: auto;
   height: auto;
 
@@ -177,33 +176,31 @@ p.text {
   }
   div.project{
     flex-direction: column;
-    width: 90%;
+    width: 95%;
+    height: 900px;
   }
 
  div.project .image-wrapper {
-    width: 90%;
+    width: 100vw;
     /* max-height: 400px; */
     object-fit: cover;
     margin-left: 40px ;
+    margin-bottom: 40px;
  }
-
  div.description {
-    width: 90%;
+    width: 95%;
     padding: 0 40px; 
     
 }
-
 div.all-wrapper {
-    margin-bottom: 50vh;
+    margin-bottom: 20px;
 }
 
 div.divider {
-    width: 100%;
+    width: 100vw;
     height: 2px;
     background-color: white;
 }
-
-
 
 
 }
