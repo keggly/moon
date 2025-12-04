@@ -47,3 +47,5 @@ document.addEventListener("DOMContentLoaded", () => {
     if (touchEndX > touchStartX + 40) prevBtn.onclick();
   });
 });
+
+
