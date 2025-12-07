@@ -171,13 +171,19 @@ p.text {
     display: block;
     width: 100vw;
     right:300px;
+    margin-left:0px;
   }
   .menu1{
     display: none;
   }
-  .intro-text{
-    width: 100%;
+.intro-text{
+    position: relative;
+    line-height: 1.5;
+    width: 85%;
+    font-size: 16pt;
+    margin-left: 35px;
   }
+  
   body{
     margin-left: 0px;
     overflow-x: hidden;
@@ -223,6 +229,7 @@ div.divider {
   .menu2{
     display: block;
     width: 100vw;
+    margin-left:0px;
 
   }
   .menu1{
@@ -263,6 +270,14 @@ div.divider {
     height: 2px;
     background-color: white;
 }
+
+  .intro-text{
+    position: relative;
+    line-height: 1.5;
+    width: 85%;
+    font-size: 16pt;
+    margin-left: 35px;
+  }
   
  /*div.project .image-wrapper {
     width: 95vw;
