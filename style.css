@@ -17,6 +17,16 @@ body {
    overflow-x: hidden;
    scroll-behavior: smooth;
   }
+
+footer {
+    text-align: center;      
+    margin-top: 100px;  
+    padding: 20px 0;        
+    color: #858585;
+    font-family: pigeon;   
+    font-size: 13pt;            
+}
+
 /* 
   .navigation{
     display:flex;
@@ -187,6 +197,11 @@ p.text {
   body{
     margin-left: 0px;
     overflow-x: hidden;
+   background-color: black;
+    background-image: url("leathermobile.jpg");
+    background-color: #cccccc;
+    background-repeat: repeat-y;
+    background-size: 100%;
   }
   div.project{
     flex-direction: column;
@@ -196,14 +211,14 @@ p.text {
   }
 
  div.project .image-wrapper {
-    width: 100vw;
+    width: 80vw;
     /* max-height: 400px; */
     object-fit: cover;
-    margin-left: 0px ;
+    margin-left: 80px ;
     margin-bottom: 40px;
  }
  div.description {
-    width: 95%;
+    width: 90%;
     padding: 0 40px; 
     margin-left: 0px;
     
@@ -214,7 +229,7 @@ div.all-wrapper {
 }
 
 div.divider {
-    width: 100vw;
+    width: 90vw;
     height: 2px;
     background-color: white;
 }
@@ -278,6 +293,16 @@ div.divider {
     font-size: 16pt;
     margin-left: 35px;
   }
+
+  footer {
+    text-align: center;      
+    margin-top: 100px;  
+    margin-left: 55px;
+    padding: 20px 0;        
+    color: #858585;
+    font-family: pigeon;   
+    font-size: 13pt;            
+}
   
  /*div.project .image-wrapper {
     width: 95vw;
