@@ -135,9 +135,9 @@ div.divider {
     background-color: white;
 }
 
+
 div#bottom {
     display: block;
-    
 }
 
 h5 {
@@ -217,6 +217,7 @@ p.text {
     margin-left: 80px ;
     margin-bottom: 40px;
  }
+
  div.description {
     width: 90%;
     padding: 0 40px; 
@@ -263,10 +264,11 @@ div.divider {
   }
 
     div.project .image-wrapper {
-    width: 80vw;
+    width: 100vw;
     /* max-height: 400px; */
     object-fit: cover;
-    margin-left: 40px ;
+    margin-left: 5px ;
+    margin-right: 0px;
  }
 
   div.description {
@@ -278,6 +280,7 @@ div.divider {
 div.all-wrapper {
     margin-bottom: 20px;
     margin-right: 40px ;
+    
 }
 
 div.divider {
@@ -294,6 +297,10 @@ div.divider {
     margin-left: 35px;
   }
 
+#revisit {
+  padding-top: 30px;
+}
+
   footer {
     text-align: center;      
     margin-top: 100px;  
@@ -309,5 +316,7 @@ div.divider {
     /* max-height: 400px; 
     object-fit: cover;
     margin-left: 16px ;
-    margin-bottom: 40px;*/
+    margin-bottom: 40px;
+}*/
+
  }
