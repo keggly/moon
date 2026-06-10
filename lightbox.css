@@ -34,19 +34,6 @@
   cursor: pointer;
 }
 
-.prev, .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-  user-select: none;
-  padding: 0 20px;
-}
-
-.prev { left: -60px; }
-.next { left: 1075px; }
 
 @media (max-width: 600px) {
  
@@ -170,3 +157,121 @@
 
 
 
+
+/* ==========================
+   PROJECT OVERVIEW GALLERY
+========================== */
+
+.gallery-overlay{
+    position: fixed;
+    inset: 0;
+        background-color: black;
+    background-image: url("leatherbg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 99999;
+
+    overflow-y: auto;
+
+    display: flex;
+    justify-content: center;
+
+    opacity: 1;
+}
+
+.gallery-overlay.hidden{
+    display:none;
+}
+
+.gallery-content{
+    width: 90%;
+    max-width: 1600px;
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:40px;
+
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.gallery-content img {
+    width: 45%;
+    height: auto;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+.gallery-close{
+    position:fixed;
+    top:30px;
+    right:70px;
+
+    color:white;
+    font-size:25px;
+    cursor:pointer;
+
+    z-index:100000;
+}
+
+@media (max-width: 600px) {
+
+    /* CONTENT GRID */
+    .gallery-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        column-gap: 15px;
+        row-gap: 35px;
+
+        padding: 80px 20px;
+    }
+
+    .gallery-content img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    /* OVERLAY */
+    .gallery-overlay {
+        position: fixed;
+        inset: 0;
+
+        width: 100vw;
+        height: 100dvh;
+
+        background: rgba(0, 0, 0, 0.95);
+
+        z-index: 99999;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* CLOSE BUTTON */
+    .gallery-close {
+        position: fixed;
+
+        top: 20px;
+        right: 20px;
+
+        font-size: 40px;
+        line-height: 1;
+
+        color: white;
+        cursor: pointer;
+
+        z-index: 100001;
+    }
+
+}
