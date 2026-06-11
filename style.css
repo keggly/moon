@@ -259,7 +259,12 @@ div.divider {
     margin-left: 0px;
     overflow-y: hidden;
    background-color: black;
-    background-image: url("leathermobile.jpg");
+   background-image: url("WEAVEphone2BG.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     
     background-color: #cccccc;
     background-repeat: repeat-y;
