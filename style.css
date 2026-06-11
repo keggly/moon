@@ -6,10 +6,12 @@
 body {
     background-color: black;
     background-image: url("leatherbg.jpg");
-    background-color: #cccccc;
+    background-image: url("Weave3BG.jpg");
+    background-color: #000000;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
     color: white;
    font-family: pigeon;
    margin-left: 120px;
@@ -199,6 +201,7 @@ p.text {
     overflow-x: hidden;
    background-color: black;
     background-image: url("leathermobile.jpg");
+    
     background-color: #cccccc;
     background-repeat: repeat-y;
     background-size: 100%;
@@ -257,6 +260,7 @@ div.divider {
     overflow-y: hidden;
    background-color: black;
     background-image: url("leathermobile.jpg");
+    
     background-color: #cccccc;
     background-repeat: repeat-y;
     background-size: 100%;
