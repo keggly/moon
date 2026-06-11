@@ -166,8 +166,6 @@
     position: fixed;
     inset: 0;
         background-color: black;
-    background-image: url("leatherbg.jpg");
-    background-color: #cccccc;
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
